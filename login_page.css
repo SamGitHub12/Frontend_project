@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.upper_div{
+    background-color: rgb(16, 19, 210);
+    color: black;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+}
+.lower_div{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin: auto;
+}
+input{
+    padding: 0px 0px;
+    margin: 3px;
+    border-radius: 20px;
+    border: 0px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 0px;
+}
