@@ -14,9 +14,9 @@ body {
     display: block;
     justify-content: center;
     text-align: center;
-    width: 20%;
+    width: auto;
     position: absolute;
-    top: 25%;
+    top: auto;
     border-radius: 15px;
     opacity: 0.86;
 }
@@ -54,7 +54,7 @@ body div div input {
     border-radius: 5px;
     border: 0px;
     line-height: 25px;
-    width: 200px;
+    width: 80%;
     height: 35px;
     opacity: 1.2;
     display: flex;
@@ -67,7 +67,7 @@ div div div input {
     border-radius: 5px;
     border: 0px;
     line-height: 25px;
-    width: 200px;
+    width: 300px;
     height: 35px;
     opacity: 1.2;
     display: flex;
