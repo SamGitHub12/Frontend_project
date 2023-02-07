@@ -1,0 +1,119 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(bg_image2.png);
+    background-image: image-set(width:100%);
+}
+
+.upper_div {
+    background-color: rgb(44, 220, 144);
+    color: black;
+    padding: 20px 20px 0px 20px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    position: absolute;
+    top: auto;
+    border-radius: 15px;
+    opacity: 0.86;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -98px;
+}
+
+.lower_div {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin: 20px;
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: white;
+}
+
+body div div input {
+    padding: 0px 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 0px;
+    line-height: 25px;
+    width: 80%;
+    height: 35px;
+    opacity: 1.2;
+    display: flex;
+    justify-content: left;
+}
+div div div input {
+    padding: 0px 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 0px;
+    line-height: 25px;
+    width: 300px;
+    height: 35px;
+    opacity: 1.2;
+    display: flex;
+    justify-content: left;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 0px;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(241, 244, 239);
+    color: rgb(62, 192, 215);
+    font-size: 25px;
+}
+
+/* .checki{
+    margin: 4 0 0 -82px;
+    opacity: 1;
+    width: 12px;
+} */
+body div div label{
+    color: rgb(12, 15, 227);
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: left;
+}
+div div div label{
+    color: rgb(12, 15, 227);
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: left;
+}
+/* .anchor1{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 10px;
+} */
+.anchor2{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 13px;
+}
