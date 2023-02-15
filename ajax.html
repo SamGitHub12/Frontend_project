@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Ajax Running Practice</title>
+    
+</head>
+
+<body style="color:black;background-color: azure;">
+    <button id="ajaxButton"  type="button" >Make a request</button>
+    <!-- <input type="text" name="" id="name"> <br> -->
+    <p id="title">This is the text we have to deal with.</p>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="ajax_js.js"></script>
+    <script>
+        
+        
+       
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("#title").hide("slow").fadeIn("slow").fadeOut("slow");
+        });
+   
+   });
+       
+    </script>
+
+</body>
+
+</html>
