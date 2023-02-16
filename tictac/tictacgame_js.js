@@ -4,20 +4,21 @@ $(document).ready(function () {
         $("img").hide();
         $(".bottom_div1").hide();
     }
-    tictac();
-    function tictac() {
-        for (let i = 1; i < 10; i++) 
-        {
-            if (i % 2 != 0) {
-                if($(".inner_div1").click){
-                    $(`#imge1`).attr("src", "image_x.png").show("fast");
-                }
-            }
-            else{
+    $("#imge1").attr("src","image_x.png");
+    $("#imge2").attr("src","image_x.png");
+    $("#imge3").attr("src","image_x.png");
+    // tictac();
+    // function tictac() {
+    //     for (let i = 1; i < 10; i++) 
+    //     {
+    //         if (i % 2 != 0) {
                 
-            }
-        }
-    }
+    //         }
+    //         else{
+                
+    //         }
+    //     }
+    // }
     // logicWin();
     // function logicWin(){
     //     if($("#imge1").attr("src") && $("#imge2").attr("src") && $("#imge3").attr("src") == "image_x.png" ||
